@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 # kodecamp
 # kodecamp-project
 # kodecamp-project
+# kodecamp-project

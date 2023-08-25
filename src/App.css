@@ -1,0 +1,48 @@
+.container{
+  width: 100vw;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-top: 40px;
+}
+
+.container  .head-text{
+  font-size: 25px;
+  color: #101828;
+}
+
+.container .list{
+  background-color: #EAECF0;
+  padding: 25px 30rem;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.container .head-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.container .footer{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px){
+  .container .list{
+      padding: 10px 5rem;
+      font-size: 1rem;
+  }
+
+}
